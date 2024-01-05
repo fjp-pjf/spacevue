@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+.container {
+  .navbar {
+    background: rgb(1, 89, 89);
+    padding: 2rem;
+    .title {
+      color: white;
+      font-weight: 700;
+      font-size: 2rem;
+      text-align: center;
+      font-family: "Poppins";
+    }
+  }
+
+  .body {
+    padding: 2rem;
+
+    .chartContainer {
+      padding: 2rem 0;
+    }
+  }
+}
+
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  .loginForm {
+    border: 1.5px solid rgb(1, 89, 89);
+    padding: 2rem;
+    border-radius: 12px;
+    min-width: 30rem;
+
+    .loginTitle {
+      color: rgb(1, 89, 89);
+      font-family: "Poppins";
+      text-align: center;
+    }
+
+    :global {
+      .ant-form {
+        .ant-input {
+          background: transparent;
+          border: 1.5px solid rgb(1, 89, 89);
+          color: rgb(1, 89, 89);
+          font-family: "Poppins";
+          font-weight: 500;
+        }
+
+        .ant-input::placeholder {
+          color: rgb(1, 89, 89);
+          font-family: "Poppins";
+        }
+      }
+
+      .ant-btn {
+        background: rgb(1, 89, 89);
+        color: black;
+        font-family: "Poppins";
+        font-weight: 500;
+        border: 0;
+        min-width: 6rem;
+      }
+    }
+  }
+}
